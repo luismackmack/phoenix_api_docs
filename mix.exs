@@ -37,7 +37,7 @@ defmodule PhoenixApiDocs.Mixfile do
       files: ["lib", "mix.exs", "README.md"],
       contributors: ["Paul Smoczyk"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/smoku/phoenix_api_docs"}
+      links: %{"GitHub" => "https://github.com/luismackmack/phoenix_api_docs"}
     ]
   end
 end

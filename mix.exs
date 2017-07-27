@@ -4,7 +4,7 @@ defmodule PhoenixApiDocs.Mixfile do
   @version "0.1.0"
 
   def project do
-    [app: :phoenix_api_docs_whitespace,
+    [app: :phoenix_api_docs,
      version: @version,
      elixir: "~> 1.0",
      description: "PhoenixApiDocs generates API documentation from annotations in controllers actions and tests cases.",
@@ -37,7 +37,7 @@ defmodule PhoenixApiDocs.Mixfile do
       files: ["lib", "mix.exs", "README.md"],
       contributors: ["Paul Smoczyk"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/luismackmack/phoenix_api_docs"}
+      links: %{"GitHub" => "https://github.com/smoku/phoenix_api_docs"}
     ]
   end
 end

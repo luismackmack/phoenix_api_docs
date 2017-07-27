@@ -4,7 +4,7 @@ defmodule PhoenixApiDocs.Mixfile do
   @version "0.1.0"
 
   def project do
-    [app: :phoenix_api_docs,
+    [app: :phoenix_api_docs_whitespace,
      version: @version,
      elixir: "~> 1.0",
      description: "PhoenixApiDocs generates API documentation from annotations in controllers actions and tests cases.",

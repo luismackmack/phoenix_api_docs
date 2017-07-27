@@ -2,6 +2,7 @@
 
 `PhoenixApiDocs` is a library written in the `Elixir` for the [Phoenix framework](http://www.phoenixframework.org/). It lets you generate API documentation in the [API Blueprint](https://apiblueprint.org/) format from annotations in controllers and automated tests.
 
+`Only` available for Phoenix v1.3
 
 ## Installation
 

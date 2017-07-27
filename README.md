@@ -2,7 +2,7 @@
 
 `PhoenixApiDocs` is a library written in the `Elixir` for the [Phoenix framework](http://www.phoenixframework.org/). It lets you generate API documentation in the [API Blueprint](https://apiblueprint.org/) format from annotations in controllers and automated tests.
 
-`Only` available for Phoenix v1.3
+`Only` available for Phoenix v1.3, this is a patch for this case. I hope the author will update the library
 
 ## Installation
 
@@ -10,7 +10,7 @@ Add PhoenixApiDocs to your mix.exs dependencies:
 
 ```elixir
 defp deps do
-  [{:phoenix_api_docs, "~> 0.1.0"}]
+  [{:phoenix_api_docs, git: "git@github.com:luismackmack/phoenix_api_docs.git", branch: "master"}]
 end
 ```
 

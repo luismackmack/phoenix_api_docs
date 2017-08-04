@@ -3,8 +3,7 @@ defmodule PhoenixApiDocs.Generator do
   def run do
     test_conns = PhoenixApiDocs.ConnLogger.conns
     app_module = Mix.Project.get.application |> Keyword.get(:mod) |> elem(0) |> Module.split |> List.first
-    app_module = app_module <> "Web"
-    router_module = Module.concat([app_module, :Router])
+    router_module = Module.concat([app_module, :Web, :Router])
 
     %{
       host: Keyword.get(api_docs_info, :host, "http://localhost"),
